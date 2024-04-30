@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Portfolio</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="content">
+          <h2>About Me</h2>
+          <div class="image-container">
+            <img src="image.jpg" alt="Image" />
+          </div>
+          <p>
+            Welcome to the gateway of my digital journey! Delighted to present
+            my inaugural Portfolio Website! I'm Luis Feliciano, fueled by an
+            insatiable curiosity for programming and an unyielding passion for
+            cybersecurity. Join me as I embark on this exhilarating odyssey of
+            learning and exploration, where every line of code unlocks new
+            realms of possibility and every challenge is a stepping stone
+            towards mastery. Together, let's sculpt the future of technology,
+            one keystroke at a time!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="content">
+          <h2>Projects</h2>
+          <div class="gallery">
+            <div class="project">
+              <img src="project1.png" alt="Project 1" />
+              <div class="project-overlay">
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="project2.jpg" alt="Project 2" />
+              <div class="project-overlay">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+            <!-- Add more project images here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="content">
+          <h2>Contact Me</h2>
+          <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
